@@ -1,5 +1,8 @@
 body{
 	margin: 0;
+	font-family: 'Helvetica';
+	font-size: 20px;
+	line-height: 30px;
 }
 header{
 	background-color: #fdc4b6;
@@ -7,11 +10,55 @@ header{
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+h1, h2{
+	font-family: 'Cute Font', cursive;
+	font-size: 70px;
+}
+h2{
+	color: #ea7070;
+}
 header h1{
 	color: white;
+	font-size: 100px;
 }
 header img{
 	border-radius: 170px;
 	width: 300px;
 	border:20px solid #ea7070;
+}
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+main img{
+	max-width: 100%;
+}
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+a{
+	color: #ea7070;
+}
+a:hover{
+	color: white;
+	background-color: #fdc4b6;
+}
+footer{
+	background-color: #fdc4b6;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+footer p{
+	margin: 0;
 }
